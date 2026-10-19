@@ -1,0 +1,30 @@
+{
+  "version": "2026-10-19",
+  "protection": "AES-256-GCM; PBKDF2-SHA256 600000",
+  "pages": [
+    {
+      "file": "index.html",
+      "plainBytes": 317524,
+      "encryptedBytes": 510942,
+      "sha256": "c4457039322dc264732024b3b2102f90c83c46dbc2bd03b22073b956094d5fbc",
+      "roundtrip": true,
+      "wrongPasswordRejected": true
+    },
+    {
+      "file": "previous.html",
+      "plainBytes": 296842,
+      "encryptedBytes": 483366,
+      "sha256": "bcd3c9e1d168991a29af1b96e9b1dd7c8f6880a699dab3bc09e2c2ef0e944246",
+      "roundtrip": true,
+      "wrongPasswordRejected": true
+    },
+    {
+      "file": "original.html",
+      "plainBytes": 302888,
+      "encryptedBytes": 491426,
+      "sha256": "9fe44dc253942c99b5117b7ea8c1b50fbb0c34a8bab0fa04fb3ee4bbef3e01ae",
+      "roundtrip": true,
+      "wrongPasswordRejected": true
+    }
+  ]
+}
