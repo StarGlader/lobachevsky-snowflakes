@@ -6,7 +6,7 @@
       "file": "index.html",
       "plainBytes": 334154,
       "encryptedBytes": 533114,
-      "sha256": "865615f35ead67a5fcf98ae5fd3628ddaeee0ec9ebe1703f22fc0ba36ea3814e",
+      "sha256": "fb2832207aff6ef532bbf0807c8d3415ff60e4031553fdc852311b80516513c6",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -29,9 +29,9 @@
   ],
   "assets": [
     {
-      "file": "music-e4f8af04016d.bin",
-      "bytes": 1775237,
-      "sha256": "e4f8af04016d7ba0e90b3bf0211666dd83797be9142f198849757dde8dc62ba6",
+      "file": "music-bb8255bb3768.bin",
+      "bytes": 960529,
+      "sha256": "bb8255bb376814600ce6730e4ec9b4c868099bb3a28ae90bed29cdcc9b9a9fec",
       "roundtrip": true
     }
   ],
