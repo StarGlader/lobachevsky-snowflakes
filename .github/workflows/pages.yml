@@ -16,11 +16,9 @@ concurrency:
 
 jobs:
   publish:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-22.04
     timeout-minutes: 15
-    environment:
-      name: snowflake-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout protected release
         uses: actions/checkout@v6
