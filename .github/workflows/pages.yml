@@ -35,7 +35,13 @@ jobs:
               assert hashlib.sha256(data).hexdigest() == page['sha256'], page['file']
               assert b'id="password"' in data, page['file']
               assert b'id="construction-picker"' not in data, page['file']
-          for name in sorted(expected | {'README.md', 'release-manifest.json', '.nojekyll'}):
+          assert len(manifest.get('assets', [])) == 1
+          asset = manifest['assets'][0]
+          assert asset['file'] == 'music.bin'
+          music = (root / asset['file']).read_bytes()
+          assert len(music) == asset['bytes']
+          assert hashlib.sha256(music).hexdigest() == asset['sha256']
+          for name in sorted(expected | {'README.md', 'release-manifest.json', '.nojekyll', 'music.bin'}):
               shutil.copyfile(root / name, target / name)
           print('Verified and staged three encrypted pages and release metadata.')
       - name: Upload verified site

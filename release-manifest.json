@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 317483,
-      "encryptedBytes": 510886,
-      "sha256": "79ac174d9c6e54ea6e742881828fc955a9d4b0c7e9decec3e93695cc59d16d5a",
+      "plainBytes": 323474,
+      "encryptedBytes": 518874,
+      "sha256": "2819726db0fae6b6b27859093e05d8cacfd7b1e8e4654640834018c420e44037",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -14,7 +14,7 @@
       "file": "previous.html",
       "plainBytes": 296842,
       "encryptedBytes": 483366,
-      "sha256": "84dcaf4e2bf5793c7c564548f9bfbb6c85f3e32525bf4e309c01a76dd0ef1d25",
+      "sha256": "e52535fc1440a698c5b9022e228a6e65d09ada576ad6cc077846eb8a29b4077a",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -22,9 +22,18 @@
       "file": "original.html",
       "plainBytes": 302888,
       "encryptedBytes": 491426,
-      "sha256": "6f8a5481e015f82c46ddd417a1cab95db1e7d70484e5edab64a1642eb7ff75ce",
+      "sha256": "4dbce97ca1f5715166c964255f6cefb503fb363815db9aeb88613cf75885370e",
       "roundtrip": true,
       "wrongPasswordRejected": true
     }
-  ]
+  ],
+  "assets": [
+    {
+      "file": "music.bin",
+      "bytes": 3557227,
+      "sha256": "f7405932741af0accf7fd5fd2ea32fc6a87d46bf0a5228c1d7b6316e33ddc3a6",
+      "roundtrip": true
+    }
+  ],
+  "appVersion": "0.9.0-beta"
 }
