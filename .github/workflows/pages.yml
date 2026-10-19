@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-22.04
     timeout-minutes: 15
     environment:
-      name: github-pages
+      name: snowflake-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout protected release
