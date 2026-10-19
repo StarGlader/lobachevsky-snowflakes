@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 318506,
-      "encryptedBytes": 512250,
-      "sha256": "47d836c9028fae27f4c0628716d9e9cfa0273d87873944324b0285e44210cb6c",
+      "plainBytes": 318436,
+      "encryptedBytes": 512158,
+      "sha256": "e0341a6fa98d13600907fdb8a3f37995acb91da8149777d648c81682dbbec00b",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -14,7 +14,7 @@
       "file": "previous.html",
       "plainBytes": 296842,
       "encryptedBytes": 483366,
-      "sha256": "05b39b56ecf5e923ba0d5e8f449876b7c498dde66fba770ed0a9121fb10e8449",
+      "sha256": "8c6a70d42e2a3bcdc20f2fc48d7748d7866ed833ea7015e64e330af707e4f838",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -22,7 +22,7 @@
       "file": "original.html",
       "plainBytes": 302888,
       "encryptedBytes": 491426,
-      "sha256": "fa0cf5e94bed60ddc0d22fd3a0bc2512247b9030215e70e58f6a7121498ef1f2",
+      "sha256": "27eb25471bdad4a0d1ddde47a776fb28d994fb7c821990255f01033885f81a8f",
       "roundtrip": true,
       "wrongPasswordRejected": true
     }
