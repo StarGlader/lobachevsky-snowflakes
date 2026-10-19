@@ -1,0 +1,53 @@
+name: Publish snowflake workshop
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: snowflake-pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout protected release
+        uses: actions/checkout@v6
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Verify and stage encrypted pages
+        shell: python
+        run: |
+          import hashlib, json, pathlib, shutil
+          root = pathlib.Path('.')
+          target = root / '_site'
+          target.mkdir()
+          manifest = json.loads((root / 'release-manifest.json').read_text())
+          expected = {'index.html', 'previous.html', 'original.html'}
+          assert {page['file'] for page in manifest['pages']} == expected
+          for page in manifest['pages']:
+              data = (root / page['file']).read_bytes()
+              assert hashlib.sha256(data).hexdigest() == page['sha256'], page['file']
+              assert b'id="password"' in data, page['file']
+              assert b'id="construction-picker"' not in data, page['file']
+          for name in sorted(expected | {'README.md', 'release-manifest.json', '.nojekyll'}):
+              shutil.copyfile(root / name, target / name)
+          print('Verified and staged three encrypted pages and release metadata.')
+      - name: Upload verified site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Deploy verified site
+        id: deployment
+        uses: actions/deploy-pages@v4
