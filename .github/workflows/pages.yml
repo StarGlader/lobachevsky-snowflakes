@@ -44,7 +44,19 @@ jobs:
           assert hashlib.sha256((root / 'music.bin').read_bytes()).hexdigest() == 'f7405932741af0accf7fd5fd2ea32fc6a87d46bf0a5228c1d7b6316e33ddc3a6'
           for name in sorted(expected | {'README.md', 'release-manifest.json', '.nojekyll', 'music.bin', asset['file']}):
               shutil.copyfile(root / name, target / name)
-          print('Verified and staged three encrypted pages and release metadata.')
+          alternate = root / 'formulas'
+          if alternate.exists():
+              fm = json.loads((alternate / 'release-manifest.json').read_text())
+              assert len(fm['pages']) == 1 and fm['pages'][0]['file'] == 'index.html'
+              data = (alternate / 'index.html').read_bytes()
+              assert hashlib.sha256(data).hexdigest() == fm['pages'][0]['sha256']
+              assert b'id="password"' in data and b'id="construction-picker"' not in data
+              assert fm['assets'][0]['file'] == '../' + asset['file']
+              assert fm['assets'][0]['sha256'] == asset['sha256']
+              (target / 'formulas').mkdir()
+              for name in ['index.html', 'release-manifest.json']:
+                  shutil.copyfile(alternate / name, target / 'formulas' / name)
+          print('Verified and staged encrypted pages, optional formula branch and release metadata.')
       - name: Upload verified site
         uses: actions/upload-pages-artifact@v4
         with:

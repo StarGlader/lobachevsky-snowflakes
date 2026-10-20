@@ -1,0 +1,23 @@
+{
+  "version": "2026-10-19",
+  "protection": "AES-256-GCM; PBKDF2-SHA256 600000",
+  "pages": [
+    {
+      "file": "index.html",
+      "plainBytes": 374587,
+      "encryptedBytes": 587892,
+      "sha256": "b2e242ddb3bddd39c8c5a25c771b738fd18306d8f2f23712ca79c3fcd8e69ed0",
+      "roundtrip": true,
+      "wrongPasswordRejected": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "../music-bb8255bb3768.bin",
+      "bytes": 960529,
+      "sha256": "bb8255bb376814600ce6730e4ec9b4c868099bb3a28ae90bed29cdcc9b9a9fec",
+      "roundtrip": true
+    }
+  ],
+  "appVersion": "0.9.0-beta"
+}
