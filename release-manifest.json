@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 783829,
-      "encryptedBytes": 1133663,
-      "sha256": "a047027b55f73d8a4af8ef6e34df59dfecf715b41863e5ef570bbcae97db0ec0",
+      "plainBytes": 783821,
+      "encryptedBytes": 1133651,
+      "sha256": "30074f533416a5c3a9ee3e02031c70f519a169748489c99a2faa8c41ea824247",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
