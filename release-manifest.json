@@ -5,8 +5,8 @@
     {
       "file": "index.html",
       "plainBytes": 781529,
-      "encryptedBytes": 1130480,
-      "sha256": "b696976ebc48c0fdf016ec097d76b25d2e89f07993e77f59d8cb61494806aa49",
+      "encryptedBytes": 1130595,
+      "sha256": "654a102a5cab5259d4a99bf3f9ad78051e072209e7ae524aa07e7b01b2c855d9",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
