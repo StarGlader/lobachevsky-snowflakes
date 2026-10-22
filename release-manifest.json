@@ -1,12 +1,12 @@
 {
-  "version": "2026-10-21",
+  "version": "2026-10-22",
   "protection": "AES-256-GCM; PBKDF2-SHA256 600000",
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 790088,
-      "encryptedBytes": 1142007,
-      "sha256": "1fe227c5c24efa73f4ed364f8b6870453f0996e898402ca02ad71dbb63c6a4ab",
+      "plainBytes": 824575,
+      "encryptedBytes": 1187991,
+      "sha256": "2f2c808682c012339cc7519e9706db6a29830165db493b96df45149cc63607c3",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,5 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.1-theatre"
+  "appVersion": "0.9.2-passport",
+  "feature": "SNOW-PASSPORT-001",
+  "sourceCommit": "913d1b63dae5bba07decc324885a6e6ccaf62fbd"
 }
