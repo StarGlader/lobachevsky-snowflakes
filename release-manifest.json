@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 828123,
-      "encryptedBytes": 1192723,
-      "sha256": "fe71668861cc22fa7a5ab164cc42b647b92ed9d7bd896c647b7593966b8dade1",
+      "plainBytes": 828114,
+      "encryptedBytes": 1192711,
+      "sha256": "f562c348192fb18b0e83bf4232938325df080bbb6f51c7e6cac9f2a4d44398dd",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.3-passport-reading",
-  "feature": "SNOW-PASSPORT-002",
-  "sourceCommit": "feeee376d32c5e314ef1f2f44f20b64dc22ab5e8"
+  "appVersion": "0.9.4-passport-fit",
+  "feature": "SNOW-PASSPORT-003",
+  "sourceCommit": "d2db5d8a5df4700e2ed9237ad22c3132ceb6fbda"
 }
