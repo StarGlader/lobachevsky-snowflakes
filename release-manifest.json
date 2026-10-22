@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 831023,
-      "encryptedBytes": 1196587,
-      "sha256": "1fd67f800ea339c7d5846d5873a0aef1ff743713888ba8d56b1d985dceca47e1",
+      "plainBytes": 842066,
+      "encryptedBytes": 1211311,
+      "sha256": "1c875417df3b71e24fdfef41c7b802afe0870c7640082a737a6caf2a1b571dd2",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.5-passport-atmosphere",
-  "feature": "SNOW-PASSPORT-004",
-  "sourceCommit": "c6524b823b26fbaf96b62b8e25a00a1dba6734c8"
+  "appVersion": "0.9.6-solid-joints",
+  "feature": "SNOW-JOINT-001",
+  "sourceCommit": "d2dfcc6c0c4c4b1fb09fc69e702aee4fd843e3b3"
 }
