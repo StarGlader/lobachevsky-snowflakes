@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 847229,
-      "encryptedBytes": 1218195,
-      "sha256": "f00e9f33d1aa96ce695e1725ecc218861f01c3f34383e9c16cb4abc6b240939a",
+      "plainBytes": 848073,
+      "encryptedBytes": 1219323,
+      "sha256": "a62b898629dca38421117a159dd5e2e36558962401f7751c79a9b0939d6e1527",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.8-responsive-3d",
-  "feature": "SNOW-RESP-001",
-  "sourceCommit": "1a3dd9d95ccfe05db8fabb76946426149e46fabe"
+  "appVersion": "0.9.9-state-lifecycle",
+  "feature": "SNOW-FIX-002",
+  "sourceCommit": "9c2222b0bcac621e6e2fb2dd92702be10df7768d"
 }
