@@ -1,12 +1,12 @@
 {
-  "version": "2026-10-22",
+  "version": "2026-10-23",
   "protection": "AES-256-GCM; PBKDF2-SHA256 600000",
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 848078,
-      "encryptedBytes": 1219327,
-      "sha256": "220936e326ba960e8721a467492f387b8ae17d667af334c0e498adfa2af9215f",
+      "plainBytes": 856400,
+      "encryptedBytes": 1230423,
+      "sha256": "f71ec70335fa9db4df8f7d8f2534b648d9d61cdedb9b567e3775adb91b78ccbe",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.10-form-parameters",
-  "feature": "SNOW-FORM-003",
-  "sourceCommit": "01b006f34f87e09289a252f9212483d2eaf6c4bb"
+  "appVersion": "0.9.11-math-clarity",
+  "feature": "SNOW-CLARITY-001",
+  "sourceCommit": "2056724e79ba767bb73839de06d9b6149a7f1375"
 }
