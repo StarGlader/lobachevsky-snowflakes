@@ -1,12 +1,12 @@
 {
-  "version": "2026-10-23",
+  "version": "2026-10-28",
   "protection": "AES-256-GCM; PBKDF2-SHA256 600000",
   "pages": [
     {
       "file": "index.html",
       "plainBytes": 856400,
       "encryptedBytes": 1230423,
-      "sha256": "f71ec70335fa9db4df8f7d8f2534b648d9d61cdedb9b567e3775adb91b78ccbe",
+      "sha256": "0b711fabb654d0dbaf2b06ce19cc45a56929934d484da9cfa31934c853ceccd6",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.11-math-clarity",
-  "feature": "SNOW-CLARITY-001",
-  "sourceCommit": "2056724e79ba767bb73839de06d9b6149a7f1375"
+  "appVersion": "0.9.12-quieter-music",
+  "feature": "SNOW-MUSIC-003",
+  "sourceCommit": "20972db24928aa37f9f4e4204ff3db0fe27ed121"
 }
