@@ -1,12 +1,12 @@
 {
-  "version": "2026-10-28",
+  "version": "2026-11-03",
   "protection": "AES-256-GCM; PBKDF2-SHA256 600000",
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 856400,
-      "encryptedBytes": 1230423,
-      "sha256": "0b711fabb654d0dbaf2b06ce19cc45a56929934d484da9cfa31934c853ceccd6",
+      "plainBytes": 856986,
+      "encryptedBytes": 1231177,
+      "sha256": "dc305367a67a80c0c61314d5a61acdd6a5af720e455262945ae67965412cb2b9",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.12-quieter-music",
-  "feature": "SNOW-MUSIC-003",
-  "sourceCommit": "20972db24928aa37f9f4e4204ff3db0fe27ed121"
+  "appVersion": "0.9.13-welcome-copy",
+  "feature": "SNOW-COPY-002",
+  "sourceCommit": "580bfcb3dddbb160abbd700f628dc8c33ee6fe53"
 }
