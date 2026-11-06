@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 861339,
-      "encryptedBytes": 1236981,
-      "sha256": "c05b29d090b9edb8adcea2ddf2bd15f08cf2a6aa7499f28a64b94e969c5380bc",
+      "plainBytes": 862784,
+      "encryptedBytes": 1238905,
+      "sha256": "177a323d375b11fad62417e621fbb4d50c8484045043f28c121881e776475ec5",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.18-touch-layout",
-  "feature": "SNOW-TOUCH-001",
-  "sourceCommit": "f3db3c8195c2ae039217bc7ddd51321c31229c46"
+  "appVersion": "0.9.19-settings-depth",
+  "feature": "SNOW-DEPTH-001",
+  "sourceCommit": "208b5ae516cd8c7b2e1e8c4a9f0b2fe1756f7fc0"
 }
