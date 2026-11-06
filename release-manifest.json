@@ -1,12 +1,12 @@
 {
-  "version": "2026-11-03",
+  "version": "2026-11-06",
   "protection": "AES-256-GCM; PBKDF2-SHA256 600000",
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 856986,
-      "encryptedBytes": 1231177,
-      "sha256": "dc305367a67a80c0c61314d5a61acdd6a5af720e455262945ae67965412cb2b9",
+      "plainBytes": 856962,
+      "encryptedBytes": 1231145,
+      "sha256": "bb6ea193032e05b94ab31b9cab76dea3d6101840716dd372f30e41f10aa6c01d",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.13-welcome-copy",
-  "feature": "SNOW-COPY-002",
-  "sourceCommit": "580bfcb3dddbb160abbd700f628dc8c33ee6fe53"
+  "appVersion": "0.9.14-controls-labels",
+  "feature": "SNOW-LABELS-001",
+  "sourceCommit": "37e473f7a1f2c53b0b549111da0f128042b3d6fd"
 }
