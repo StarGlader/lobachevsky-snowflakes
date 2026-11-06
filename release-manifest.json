@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 856962,
-      "encryptedBytes": 1231145,
-      "sha256": "bb6ea193032e05b94ab31b9cab76dea3d6101840716dd372f30e41f10aa6c01d",
+      "plainBytes": 856897,
+      "encryptedBytes": 1231057,
+      "sha256": "bc0cc5081a3ba212e807812a8fe27fcbdf0310a68a9678a0ee85aa6be517d861",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.14-controls-labels",
-  "feature": "SNOW-LABELS-001",
-  "sourceCommit": "37e473f7a1f2c53b0b549111da0f128042b3d6fd"
+  "appVersion": "0.9.15-title",
+  "feature": "SNOW-TITLE-001",
+  "sourceCommit": "40e844177a00f32791849764ac79f9fa6ad0fcc5"
 }
