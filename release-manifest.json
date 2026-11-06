@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 857217,
-      "encryptedBytes": 1231485,
-      "sha256": "686088a04713afd16bc29e4fb4e25f5e89744d6f8a17d83df63d119d114b694b",
+      "plainBytes": 861339,
+      "encryptedBytes": 1236981,
+      "sha256": "c05b29d090b9edb8adcea2ddf2bd15f08cf2a6aa7499f28a64b94e969c5380bc",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.17-screen",
-  "feature": "SNOW-SCREEN-001",
-  "sourceCommit": "7bfcecf30be77a6544617e6ab16abe3746b8fbca"
+  "appVersion": "0.9.18-touch-layout",
+  "feature": "SNOW-TOUCH-001",
+  "sourceCommit": "f3db3c8195c2ae039217bc7ddd51321c31229c46"
 }
