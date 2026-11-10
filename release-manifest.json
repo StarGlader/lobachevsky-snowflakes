@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 904463,
-      "encryptedBytes": 1294477,
-      "sha256": "5b590cfd13242c60dc256626db01085b8e1e7b0a6e648511eab9685c62cd0268",
+      "plainBytes": 904550,
+      "encryptedBytes": 1294593,
+      "sha256": "d5ba5ac292341621314becb1adb23927e2adfed93dcae60d651446df6b8bc3db",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.24-construction-guides",
-  "feature": "SNOW-CONSTRUCTION-GUIDES-001",
-  "sourceCommit": "f3b9d6984fb1fd2b64a0173bd12d4ba598287ec8"
+  "appVersion": "0.9.25-snowfall-patterns",
+  "feature": "SNOW-SHIFTED-PATTERNS-001",
+  "sourceCommit": "aa32877937753f35b6e58c18b4dda131373af450"
 }
