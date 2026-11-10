@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 898311,
-      "encryptedBytes": 1286277,
-      "sha256": "f796c297db96ed06bd0f4935e11c1eb7c0c889c519d1c3244f4b2850929fccea",
+      "plainBytes": 899355,
+      "encryptedBytes": 1287669,
+      "sha256": "ad69f1a34c348c7979e088647f5d8132570f2ee378a1659ba19617721346885c",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.22-snowfall-defaults",
-  "feature": "SNOW-INITIAL-PATTERNS-001",
-  "sourceCommit": "b9c2456b7a63b9154f54b6d507d7616f4ad711ca"
+  "appVersion": "0.9.23-settings-alignment",
+  "feature": "SNOW-SETTINGS-ALIGN-001",
+  "sourceCommit": "7285b86ec54c4658eb4d74945bd3fab4f947172c"
 }
