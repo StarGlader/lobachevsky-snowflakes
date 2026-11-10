@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 904550,
-      "encryptedBytes": 1294593,
-      "sha256": "d5ba5ac292341621314becb1adb23927e2adfed93dcae60d651446df6b8bc3db",
+      "plainBytes": 907541,
+      "encryptedBytes": 1298581,
+      "sha256": "bbe3e50dac87483e3cf3a2d7298c33ed7e4f37906bab049160666ea04eb6b628",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.25-snowfall-patterns",
-  "feature": "SNOW-SHIFTED-PATTERNS-001",
-  "sourceCommit": "aa32877937753f35b6e58c18b4dda131373af450"
+  "appVersion": "0.9.26-blue-snowfall-editor",
+  "feature": "SNOW-DEPTH-EDITOR-001",
+  "sourceCommit": "83d8f1654baed6e4b4532f4675b0330763833322"
 }
