@@ -44,6 +44,10 @@ jobs:
           assert hashlib.sha256((root / 'music.bin').read_bytes()).hexdigest() == 'f7405932741af0accf7fd5fd2ea32fc6a87d46bf0a5228c1d7b6316e33ddc3a6'
           for name in sorted(expected | {'README.md', 'release-manifest.json', '.nojekyll', 'music.bin', asset['file']}):
               shutil.copyfile(root / name, target / name)
+          frost = root / 'assets/frost-grain.svg'
+          assert hashlib.sha256(frost.read_bytes()).hexdigest() == 'ba91a0ca79d7fa55666f981fe3830ace1b319aec72b054df9488955eddd14e09'
+          (target / 'assets').mkdir()
+          shutil.copyfile(frost, target / 'assets/frost-grain.svg')
           alternate = root / 'formulas'
           if alternate.exists():
               fm = json.loads((alternate / 'release-manifest.json').read_text())
