@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 895012,
-      "encryptedBytes": 1281877,
-      "sha256": "e3a0f52ceedda8c7906988dd73b2c3d5583b620216c8fa65102e4a39cc5667fe",
+      "plainBytes": 898308,
+      "encryptedBytes": 1286273,
+      "sha256": "a66601aecdc3b9cc1ba4e8a26acf7d49ac510837b1f407957d777a1a26987192",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -37,5 +37,5 @@
   ],
   "appVersion": "0.9.21-design2",
   "feature": "SNOW-DESIGN2-001",
-  "sourceCommit": "bd935110f6375134bdff5f97b7a4967e8c485b7e"
+  "sourceCommit": "342231c76d9f2b7a766ef500c52203e432268c26"
 }
