@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 945503,
-      "encryptedBytes": 1349330,
-      "sha256": "b97d3e286bfee8da0d0b0ae5920d95e31578e1506bc188c867409a914aa598a5",
+      "plainBytes": 946741,
+      "encryptedBytes": 1350982,
+      "sha256": "0a689e9bb1fcf6777e00e0d76f4822c230d9041ce192ca0476860ed0f888a5fe",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -45,7 +45,7 @@
       "sha256": "6677dbb3272ddf7755f6e1907896472a067805402a8f19121c2b6321d0fb5adb"
     }
   ],
-  "appVersion": "0.9.37-ui-links",
+  "appVersion": "0.9.38-copy-feedback",
   "feature": "SNOW-SHARE-LINK-001",
-  "sourceCommit": "aaae6256967c4715ac34badc8e02d78b56d3ff2a"
+  "sourceCommit": "8edfaa8cb861e62100f4ad5dfdb7c6dcbb97ff89"
 }
