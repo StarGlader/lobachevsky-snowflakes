@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 932546,
-      "encryptedBytes": 1331921,
-      "sha256": "7386eca925811e4611781671dd78466b7bd291b6ff201b4235111c564e86353e",
+      "plainBytes": 926586,
+      "encryptedBytes": 1323977,
+      "sha256": "192d1be5c90014b30c31f289a93e22e7e912e8a84d06a9fa9e8e455d11927384",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.28-flat-details",
-  "feature": "SNOW-JOINT-PERF-001",
-  "sourceCommit": "786c7b6ddb0af2b7f4f23683951623d0b1f30ac5"
+  "appVersion": "0.9.29-workload",
+  "feature": "SNOW-PERF-002",
+  "sourceCommit": "7ed6a3ef82975ab5046386a2acf65231dfd8db5f"
 }
