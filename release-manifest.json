@@ -1,12 +1,12 @@
 {
-  "version": "2026-11-12",
+  "version": "2026-11-13",
   "protection": "AES-256-GCM; PBKDF2-SHA256 600000",
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 940961,
-      "encryptedBytes": 1343274,
-      "sha256": "2fd02178e7ffa978d057973991e019a3f1df2c1d12be854e50c5506ab07acf0a",
+      "plainBytes": 945503,
+      "encryptedBytes": 1349330,
+      "sha256": "b97d3e286bfee8da0d0b0ae5920d95e31578e1506bc188c867409a914aa598a5",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -45,7 +45,7 @@
       "sha256": "6677dbb3272ddf7755f6e1907896472a067805402a8f19121c2b6321d0fb5adb"
     }
   ],
-  "appVersion": "0.9.36-share-favicon",
-  "feature": "SNOW-SHARE-FAVICON-PACK-001",
-  "sourceCommit": "9ecc6a71106a7c05a32642a9b6dae382894c4498"
+  "appVersion": "0.9.37-ui-links",
+  "feature": "SNOW-SHARE-LINK-001",
+  "sourceCommit": "aaae6256967c4715ac34badc8e02d78b56d3ff2a"
 }
