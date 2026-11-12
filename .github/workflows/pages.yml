@@ -35,14 +35,21 @@ jobs:
               assert hashlib.sha256(data).hexdigest() == page['sha256'], page['file']
               assert b'id="password"' in data, page['file']
               assert b'id="construction-picker"' not in data, page['file']
-          assert len(manifest.get('assets', [])) == 1
-          asset = manifest['assets'][0]
+          assert len(manifest.get('assets', [])) == 3
+          icons = {'favicon.svg', 'favicon.ico'}
+          icon_assets = [item for item in manifest['assets'] if item['file'] in icons]
+          assert {item['file'] for item in icon_assets} == icons
+          for icon in icon_assets:
+              data = (root / icon['file']).read_bytes()
+              assert len(data) == icon['bytes']
+              assert hashlib.sha256(data).hexdigest() == icon['sha256']
+          asset, = [item for item in manifest['assets'] if item['file'] not in icons]
           assert re.fullmatch(r'music-[0-9a-f]{12}\.bin', asset['file'])
           music = (root / asset['file']).read_bytes()
           assert len(music) == asset['bytes']
           assert hashlib.sha256(music).hexdigest() == asset['sha256']
           assert hashlib.sha256((root / 'music.bin').read_bytes()).hexdigest() == 'f7405932741af0accf7fd5fd2ea32fc6a87d46bf0a5228c1d7b6316e33ddc3a6'
-          for name in sorted(expected | {'README.md', 'release-manifest.json', '.nojekyll', 'music.bin', asset['file']}):
+          for name in sorted(expected | icons | {'README.md', 'release-manifest.json', '.nojekyll', 'music.bin', asset['file']}):
               shutil.copyfile(root / name, target / name)
           frost = root / 'assets/frost-grain.svg'
           assert hashlib.sha256(frost.read_bytes()).hexdigest() == 'ba91a0ca79d7fa55666f981fe3830ace1b319aec72b054df9488955eddd14e09'
