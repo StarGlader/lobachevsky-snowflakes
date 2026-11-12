@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 926586,
-      "encryptedBytes": 1323977,
-      "sha256": "192d1be5c90014b30c31f289a93e22e7e912e8a84d06a9fa9e8e455d11927384",
+      "plainBytes": 932332,
+      "encryptedBytes": 1331637,
+      "sha256": "9c80bcd2324d29d559fb1a5e9d3abd14a9af9e9da9b4a7b9f991c462344c90f2",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.29-workload",
-  "feature": "SNOW-PERF-002",
-  "sourceCommit": "7ed6a3ef82975ab5046386a2acf65231dfd8db5f"
+  "appVersion": "0.9.30-mesh-reuse",
+  "feature": "SNOW-MESH-REUSE-001",
+  "sourceCommit": "7c2b55383d7f6b1768eaea6dcba1176981e70007"
 }
