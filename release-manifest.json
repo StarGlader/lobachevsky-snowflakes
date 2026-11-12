@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 932332,
-      "encryptedBytes": 1331637,
-      "sha256": "9c80bcd2324d29d559fb1a5e9d3abd14a9af9e9da9b4a7b9f991c462344c90f2",
+      "plainBytes": 934122,
+      "encryptedBytes": 1334025,
+      "sha256": "5b30b595c6f9631462be3b57c468fa080381adba55146502c7bcf3018afb2a85",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.30-mesh-reuse",
-  "feature": "SNOW-MESH-REUSE-001",
-  "sourceCommit": "7c2b55383d7f6b1768eaea6dcba1176981e70007"
+  "appVersion": "0.9.31-flight-light",
+  "feature": "SNOW-FLIGHT-LIGHT-001",
+  "sourceCommit": "2592cd64f3ba8cf25d4473c243738541fc4671bb"
 }
