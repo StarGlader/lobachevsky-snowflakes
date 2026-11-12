@@ -1,12 +1,12 @@
 {
-  "version": "2026-11-10",
+  "version": "2026-11-12",
   "protection": "AES-256-GCM; PBKDF2-SHA256 600000",
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 907541,
-      "encryptedBytes": 1298581,
-      "sha256": "bbe3e50dac87483e3cf3a2d7298c33ed7e4f37906bab049160666ea04eb6b628",
+      "plainBytes": 926210,
+      "encryptedBytes": 1323473,
+      "sha256": "fc5dcf328cdb490bd7136618bc0f87108c9bb564a14f6cfcf109d67ef306dc10",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.26-blue-snowfall-editor",
-  "feature": "SNOW-DEPTH-EDITOR-001",
-  "sourceCommit": "83d8f1654baed6e4b4532f4675b0330763833322"
+  "appVersion": "0.9.27-audited-ui",
+  "feature": "SNOW-AUDITED-UI-001",
+  "sourceCommit": "5ecec0635c507e0aa9bc6689f9bb8a77d17028e8"
 }
