@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 926210,
-      "encryptedBytes": 1323473,
-      "sha256": "fc5dcf328cdb490bd7136618bc0f87108c9bb564a14f6cfcf109d67ef306dc10",
+      "plainBytes": 932546,
+      "encryptedBytes": 1331921,
+      "sha256": "7386eca925811e4611781671dd78466b7bd291b6ff201b4235111c564e86353e",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.27-audited-ui",
-  "feature": "SNOW-AUDITED-UI-001",
-  "sourceCommit": "5ecec0635c507e0aa9bc6689f9bb8a77d17028e8"
+  "appVersion": "0.9.28-flat-details",
+  "feature": "SNOW-JOINT-PERF-001",
+  "sourceCommit": "786c7b6ddb0af2b7f4f23683951623d0b1f30ac5"
 }
