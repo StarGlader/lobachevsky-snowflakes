@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 934122,
-      "encryptedBytes": 1334025,
-      "sha256": "5b30b595c6f9631462be3b57c468fa080381adba55146502c7bcf3018afb2a85",
+      "plainBytes": 938876,
+      "encryptedBytes": 1340361,
+      "sha256": "eb386556cdf59d58aa057bffdb4d45249ebb2eb41938e0d7a245d5332f1059f7",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.31-flight-light",
-  "feature": "SNOW-FLIGHT-LIGHT-001",
-  "sourceCommit": "2592cd64f3ba8cf25d4473c243738541fc4671bb"
+  "appVersion": "0.9.32-math-performance",
+  "feature": "SNOW-MATH-UPDATE-001",
+  "sourceCommit": "865159316a78fef01e1eebf5b9d4504fc9330c78"
 }
