@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 939040,
-      "encryptedBytes": 1340581,
-      "sha256": "40ff1116f5cff5f3b2f46367011e32c3fee1e35b30cf17f0ad1a3b112c8871ce",
+      "plainBytes": 940839,
+      "encryptedBytes": 1342981,
+      "sha256": "a988a20f1531195306be7107be6d2dd653bb49796bf231098d8a0347bc0b4ab5",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -35,7 +35,7 @@
       "roundtrip": true
     }
   ],
-  "appVersion": "0.9.33-flight-frames",
-  "feature": "SNOW-FLIGHT-FRAME-PACK-001",
-  "sourceCommit": "0c6cdbc8604bf286c0fdd3fca2eadbe5cff53483"
+  "appVersion": "0.9.34-selection-cost",
+  "feature": "SNOW-SELECTION-COST-PACK-001",
+  "sourceCommit": "7b1d05a79fd2f35c440c41a8a00c37bb4fce8be7"
 }
