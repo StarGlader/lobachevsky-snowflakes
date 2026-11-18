@@ -1,12 +1,12 @@
 {
-  "version": "2026-11-13",
+  "version": "2026-11-18",
   "protection": "AES-256-GCM; PBKDF2-SHA256 600000",
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 947766,
-      "encryptedBytes": 1352350,
-      "sha256": "1da90ae0368fea2b50f9634b61729a6c8c537184b1e1ab856347953c43f6132a",
+      "plainBytes": 3674844,
+      "encryptedBytes": 4988454,
+      "sha256": "52d790f00ac14e448f0fc49f12110245ae83e0386b638495ea846fb852a08d63",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -45,7 +45,7 @@
       "sha256": "6677dbb3272ddf7755f6e1907896472a067805402a8f19121c2b6321d0fb5adb"
     }
   ],
-  "appVersion": "0.9.39-passport-panel-reuse",
-  "feature": "SNOW-REUSE-001",
-  "sourceCommit": "ccccc07a8937cca63e7210514eb5d056bc40739f"
+  "appVersion": "0.9.40-babylon-mirror",
+  "feature": "SNOW-BABYLON-MIRROR",
+  "bundleSha256": "a0f30cbcc9db39ce0514a284d8e3eaa55db2d60dbddb8c2ff4ac8b3a64910f14"
 }
