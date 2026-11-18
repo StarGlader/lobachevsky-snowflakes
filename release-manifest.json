@@ -4,9 +4,9 @@
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 3674844,
-      "encryptedBytes": 4988454,
-      "sha256": "52d790f00ac14e448f0fc49f12110245ae83e0386b638495ea846fb852a08d63",
+      "plainBytes": 3674922,
+      "encryptedBytes": 4988558,
+      "sha256": "f34a114981d24c65e7b801ff6f4bda019c17d0f8e3357b4f8aa58a6f25e4bfbd",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -47,5 +47,5 @@
   ],
   "appVersion": "0.9.40-babylon-mirror",
   "feature": "SNOW-BABYLON-MIRROR",
-  "bundleSha256": "a0f30cbcc9db39ce0514a284d8e3eaa55db2d60dbddb8c2ff4ac8b3a64910f14"
+  "bundleSha256": "51a9b66ed4802a2beb4340cce3dd8c1fc7f117e1f74f5e0f3825a7a662feba76"
 }
