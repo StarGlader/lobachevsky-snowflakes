@@ -1,12 +1,12 @@
 {
-  "version": "2026-11-18",
+  "version": "2026-11-21",
   "protection": "AES-256-GCM; PBKDF2-SHA256 600000",
   "pages": [
     {
       "file": "index.html",
-      "plainBytes": 3674922,
-      "encryptedBytes": 4988558,
-      "sha256": "f34a114981d24c65e7b801ff6f4bda019c17d0f8e3357b4f8aa58a6f25e4bfbd",
+      "plainBytes": 4034313,
+      "encryptedBytes": 5467746,
+      "sha256": "d128163d01adbb43947016491de6b0a96f53f7998a7e8d91a8e892b1d3c8311f",
       "roundtrip": true,
       "wrongPasswordRejected": true
     },
@@ -45,7 +45,7 @@
       "sha256": "6677dbb3272ddf7755f6e1907896472a067805402a8f19121c2b6321d0fb5adb"
     }
   ],
-  "appVersion": "0.9.40-babylon-mirror",
+  "appVersion": "0.9.41-babylon-mirror",
   "feature": "SNOW-BABYLON-MIRROR",
-  "bundleSha256": "51a9b66ed4802a2beb4340cce3dd8c1fc7f117e1f74f5e0f3825a7a662feba76"
+  "bundleSha256": "f3de8a5e15f6ad3d774f938cae586f5794ceb94dac77181d7f000d4616a1761c"
 }
